@@ -1,0 +1,135 @@
+{
+  "theme": "dark",
+  "project_name": "Xavier Tech & Dev",
+  "archetype": "THE PERFORMANCE PRO / SWISS BRUTALIST TECH (Linear & Vercel Inspired)",
+  "language": "pt-BR",
+  "colors": {
+    "background_primary": "#0B0F17",
+    "surface_card": "#111827",
+    "surface_card_hover": "#1F2937",
+    "border_subtle": "#1F2937",
+    "border_glow": "rgba(37, 99, 235, 0.3)",
+    "primary_cta": "#2563EB",
+    "primary_cta_hover": "#1D4ED8",
+    "primary_glow": "0 0 25px rgba(37, 99, 235, 0.5)",
+    "accent_emerald": "#10B981",
+    "accent_emerald_glow": "0 0 12px rgba(16, 185, 129, 0.6)",
+    "text_heading": "#F9FAFB",
+    "text_body": "#9CA3AF",
+    "text_muted": "#6B7280",
+    "whatsapp_brand": "#22C55E"
+  },
+  "typography": {
+    "fonts": {
+      "headline": "Plus Jakarta Sans, Outfit, sans-serif",
+      "body": "Inter, DM Sans, sans-serif",
+      "mono": "JetBrains Mono, Fira Code, monospace"
+    },
+    "hierarchy": {
+      "hero_h1": "text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.1]",
+      "section_h2": "text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-white",
+      "card_h3": "text-lg sm:text-xl font-semibold text-white",
+      "body_text": "text-base text-gray-400 leading-relaxed",
+      "caption": "text-xs font-mono tracking-widest uppercase text-blue-400"
+    }
+  },
+  "visual_enhancers": {
+    "glassmorphism": "backdrop-blur-xl bg-gray-900/60 border border-gray-800/80 shadow-2xl",
+    "tracing_beam": "relative overflow-hidden before:absolute before:inset-0 before:bg-gradient-to-r before:from-transparent before:via-blue-500/20 before:to-transparent before:-translate-x-full hover:before:animate-shimmer",
+    "grid_background": "bg-[linear-gradient(to_right,#1f293715_1px,transparent_1px),linear-gradient(to_bottom,#1f293715_1px,transparent_1px)] bg-[size:4rem_4rem]",
+    "spotlight_effect": "radial-gradient(600px circle at var(--mouse-x) var(--mouse-y), rgba(37, 99, 235, 0.15), transparent 40%)"
+  },
+  "motion_and_libraries": {
+    "lenis_smooth_scroll": "MANDATORY - Initialize Lenis for momentum scrolling across anchors",
+    "framer_motion": {
+      "masked_line_reveal": "Hero headline masked line-by-line kinetic entrance reveal on load",
+      "scroll_stagger": "Staggered fade-up for services, problems, and manifesto steps",
+      "interactive_widget": "Animated live metrics counter + simulated automated WhatsApp AI response typing sequence"
+    },
+    "marquee": "Slow editorial text ribbon running across tech badges and clients",
+    "three_or_canvas": "Subtle interactive WebGL grid particle / mesh node canvas in Hero background"
+  },
+  "sections_breakdown": [
+    {
+      "id": "navbar",
+      "title": "Header & Nav Bar",
+      "notes": "Sticky glassmorphism header with glowing green status dot, links (Soluções, Diferenciais, Como Funciona, FAQ), and CTA 'Falar no WhatsApp'."
+    },
+    {
+      "id": "hero",
+      "title": "Hero Section",
+      "notes": "Badge 'TECNOLOGIA SOB MEDIDA PARA QUEM VENDE TODOS OS DIAS', Masked line-by-line kinetic H1 reveal, CTAs ('Quero um Diagnóstico Gratuito', 'Ver Soluções'), Trust Badges row, interactive live Dashboard card + pulsating 'IA Ativa 24/7' WhatsApp preview."
+    },
+    {
+      "id": "marquee",
+      "title": "Editorial Marquee",
+      "notes": "Slow drifting ribbon displaying key tech keywords: 'Sistemas Web • MCP Automação • Código Próprio • Suporte 24/7 • Zero Mensalidades Ocultas'."
+    },
+    {
+      "id": "problems",
+      "title": "O Custo da Operação Manual (Manifesto Ch. 01)",
+      "notes": "3 high-contrast cards highlighting friction: Leads perdidos no WhatsApp, Tempo com planilhas manuais, Frustração com plataformas genéricas."
+    },
+    {
+      "id": "solutions",
+      "title": "Soluções Sob Medida (Manifesto Ch. 02)",
+      "notes": "4 glassmorphic bento cards: 1. Atendimento Inteligente 24/7 & Automação IA (MCP), 2. Sistemas Web & Gestão Interna, 3. Landing Pages de Alta Conversão, 4. E-commerce e SaaS Proprietários."
+    },
+    {
+      "id": "comparison",
+      "title": "Tabela Comparativa (Sistemas Genéricos vs Xavier Tech & Dev)",
+      "notes": "Side-by-side interactive comparison highlighting ownership, custom speed, no lock-in, and 3 months free support."
+    },
+    {
+      "id": "security",
+      "title": "Segurança & Confiança",
+      "notes": "Highlighting End-to-End Encryption, Auth Seguro, 99.9% Uptime, e LGPD Compliance."
+    },
+    {
+      "id": "steps",
+      "title": "Como Funciona (Manifesto Ch. 03)",
+      "notes": "4-step timeline: Diagnóstico Gratuito → Desenvolvimento Ágil → Implantação e Treinamento → Suporte Ativo."
+    },
+    {
+      "id": "pricing",
+      "title": "Investimento Transparente",
+      "notes": "Card 'Projeto Completo Sob Medida' starting from R$ 5.000, Bonus badge '3 Meses de Suporte Gratuito (até 2 alterações/mês)', CTA 'Agendar Diagnóstico Gratuito'."
+    },
+    {
+      "id": "faq",
+      "title": "Perguntas Frequentes (FAQ)",
+      "notes": "Accordion with 5 key operational and technical questions in Brazilian Portuguese."
+    },
+    {
+      "id": "lead_capture_and_footer",
+      "title": "Diagnóstico & Rodapé",
+      "notes": "Lead capture form connected to FastAPI backend + Footer with social links, trust badges, copyright, and floating WhatsApp CTA."
+    }
+  ],
+  "image_urls": [
+    {
+      "category": "developer_dashboard",
+      "url": "https://images.unsplash.com/photo-1599837565318-67429bde7162?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTZ8MHwxfHNlYXJjaHw0fHxzb2Z0d2FyZSUyMGRldmVsb3BlciUyMGRhcmslMjB3b3Jrc3BhY2V8ZW58MHx8fHwxNzg4NDk1NTA3fDA&ixlib=rb-4.1.0&q=85",
+      "description": "Dark screen with glowing colorful code lines for dashboard background preview"
+    },
+    {
+      "category": "developer_workspace",
+      "url": "https://images.unsplash.com/photo-1520583457224-aee11bad5112?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTZ8MHwxfHNlYXJjaHwyfHxzb2Z0d2FyZSUyMGRldmVsb3BlciUyMGRhcmslMjB3b3Jrc3BhY2V8ZW58MHx8fHwxNzg4NDk1NTA3fDA&ixlib=rb-4.1.0&q=85",
+      "description": "Dark aesthetic laptop workspace with code on display"
+    }
+  ],
+  "instructions_to_main_agent": [
+    "Install and integrate required npm libraries if missing: lenis (@studio-freight/lenis or lenis), framer-motion, lucide-react, react-fast-marquee, canvas-confetti, etc.",
+    "Implement the FastAPI backend endpoint `/api/lead` or `/api/diagnostico` to save lead diagnostic inquiries to DB.",
+    "Ensure all interactive buttons and inputs carry `data-testid` attributes (e.g. `data-testid=\"hero-cta-button\"`, `data-testid=\"whatsapp-floating-button\"`).",
+    "Maintain high visual density with Linear/Vercel inspired subtle border lines (`border-gray-800`), glowing emerald live badges (`#10B981`), and electric blue CTAs (`#2563EB`).",
+    "Provide responsive mobile navigation menu with smooth transitions.",
+    "Include a sticky floating WhatsApp button on the bottom right with a subtle breathing green pulse effect."
+  ],
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "Never center align the root application container.",
+    "Avoid generic AI slop centered layouts. Use bold asymmetry, crisp typography, layered z-indexes, and subtle noise/grid textures.",
+    "Ensure APCA text contrast compliance on all dark surfaces.",
+    "Use micro-interactions on all cards and interactive widgets."
+  ]
+}
