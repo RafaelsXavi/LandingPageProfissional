@@ -84,3 +84,7 @@ android-sdk/
 # Testing workspace artifacts
 /tests/test-results/
 
+
+.env
+.env.*
+!.env.example
