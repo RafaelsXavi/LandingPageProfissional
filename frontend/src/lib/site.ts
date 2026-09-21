@@ -1,5 +1,5 @@
 export const WHATSAPP_URL =
-  "https://wa.me/5511999999999?text=" +
+  "https://wa.me/5511991529620?text=" +
   encodeURIComponent("Olá! Quero um diagnóstico gratuito para minha empresa.");
 
 export const NAV_LINKS = [
